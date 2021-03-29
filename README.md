@@ -78,7 +78,7 @@ Run ng e2e to execute the end-to-end tests via Protractor.
 
 
 ## Contact
-IN case of any question or contributions, contact me at sheilasharon10@gmail.com
+In case of any question or contributions, contact me at sheilasharon10@gmail.com
 
 
 ## Licence
