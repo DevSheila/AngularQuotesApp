@@ -19,7 +19,7 @@ This is an application that allows you to add quotes.You can also delete,upvote 
 * [Licence](#Licence)
 
 ## Demo
-Here is a working live demo :    
+Here is a working live demo :    https://quotycorner.netlify.app/
 ## Features
 
 1. Interactive
