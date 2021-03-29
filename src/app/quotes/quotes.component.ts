@@ -15,6 +15,12 @@ export class QuotesComponent implements OnInit {
     new Quote (3,'Harry Potter',"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough",'Oprah Winfrey',new Date(2020,7,17),0,0),
     new Quote (4,'Ginny Sturgis',"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",'James Cameron',new Date(2020,7,15),0,0)
   ];
+
+  get sortQuotes() {
+    return this.quotes.sort((a, b) => {
+      return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
+    });
+  }  
   constructor() { }
 
   ngOnInit(): void {
