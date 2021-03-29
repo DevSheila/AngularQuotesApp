@@ -46,7 +46,18 @@ There are curently no known bugs.
 $ git clone  https://github.com/DevSheila/AngularQuotesApp.git
 
 ```
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+* Change Directory to AngularQuotesApp
+```
+$ cd AngularQuotesApp
+
+```
+* Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+
+
+
+
 
 ## Code scaffolding
 
