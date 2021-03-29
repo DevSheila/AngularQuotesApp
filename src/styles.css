@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+/* @import '~font-awesome/css/font-awesome.css'; */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+  background-image: url('./assets/daniele-colucci-8MoRs-DVtas-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+
+
