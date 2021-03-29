@@ -14,6 +14,8 @@ This is an application that allows you to add quotes.You can also delete,upvote 
 
 * [Setup](#setup)
 
+* [Contact](#contact)
+
 * [Licence](#Licence)
 
 ## Demo
@@ -59,23 +61,24 @@ $ cd AngularQuotesApp
 
 
 
-## Code scaffolding
+### Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Build
 
 Run `ng build` to build the project. 
 
-## Running unit tests
+### Running unit tests
 Run ng test to execute the unit tests via Karma.
 
-## Running end-to-end tests
+### Running end-to-end tests
 Run ng e2e to execute the end-to-end tests via Protractor.
 
 
 
-
+## Contact
+IN case of any question or contributions, contact me at sheilasharon10@gmail.com
 
 
 ## Licence
