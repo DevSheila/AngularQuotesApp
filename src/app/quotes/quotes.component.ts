@@ -21,6 +21,13 @@ export class QuotesComponent implements OnInit {
       return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
     });
   }  
+
+  addedQuote(quote:any){
+    let arraysize = this.quotes.length;
+    quote.id = arraysize+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
   constructor() { }
 
   ngOnInit(): void {
