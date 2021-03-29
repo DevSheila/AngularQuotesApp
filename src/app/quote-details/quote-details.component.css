@@ -1,37 +1,37 @@
 #delete{
-    font-size: 20px;
-    margin-right: 2%;
-    color:rgb(226, 46, 46);
-  }
-  #del{
-    float:right;
-    background-color: black
-    ;
-  }
-  #like{
-    font-size: 16px;
-  }
-  #dislike{
-    font-size: 16px;
+  font-size: 20px;
+  margin-right: 2%;
+  color:rgb(226, 46, 46);
+}
+#del{
+  float:right;
+  background-color: black
+  ;
+}
+#like{
+  font-size: 16px;
+}
+#dislike{
+  font-size: 16px;
 
-  }
-  #downvote{
-    margin-left: 10px;
-    background-color: black;
-    color: rgb(226, 46, 46);
+}
+#downvote{
+  margin-left: 10px;
+  background-color: black;
+  color: rgb(226, 46, 46);
 
-  }
-  #upvote{
-    margin-left: 10px;
-    background-color: black;
-    color: green;
-  }
- 
+}
+#upvote{
+  margin-left: 10px;
+  background-color: black;
+  color: green;
+}
 
-  #buttons{
-    margin-top: 5%;
-    margin-bottom: 10%;
-  }
-  #when{
-    float:right;
-  }
+
+#buttons{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+#when{
+  float:right;
+}
