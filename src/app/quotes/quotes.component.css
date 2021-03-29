@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Kaushan Script';
+    color:black;
+
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+ 
+  .overlay{
+   
+    border-radius: 5px;
+    margin:5%;
+
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+  }
+  #name{
+    font-weight: 700;
+  }
+  .all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #quotes-button{
+    background-color: black;
+  }
+  .card{
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 3px 2px rgb(100, 98, 98);
+    width: 26rem;
+  }
+  #date{
+    float: right;
+    font-size: 14px;
+  }
+  #datecolor{
+    font-weight: 700;
+  }
+  .card-text{
+    font-weight: 570;
+    font-size: 18px;
+  }
+  
