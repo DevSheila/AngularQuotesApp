@@ -1,27 +1,26 @@
 .form-control{
-    color:black;
-    background: transparent;
-    font-weight: 570;
-  }
-  label{
-    color:black;
-    font-weight: 600;
-  }
+  color:black;
+  background: transparent;
+  font-weight: 570;
+}
+label{
+  color:black;
+  font-weight: 600;
+}
 
-  .heading{
-    color:black;
-    text-align: center;
-    padding-top: 2%;
-  }
-  .container-fluid{
-    background-color:white;
-    opacity:0.9;
-    border-radius: 4px;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-  }
-  #btn-submit{
-    background-color:black;
-    color:white
-  }
-  
+.heading{
+  color:black;
+  text-align: center;
+  padding-top: 2%;
+}
+.container-fluid{
+  background-color:white;
+  opacity:0.9;
+  border-radius: 4px;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+#btn-submit{
+  background-color:black;
+  color:white
+}
