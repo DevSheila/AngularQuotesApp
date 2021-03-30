@@ -24,10 +24,7 @@
        
 
             <app-quote-details *ngIf='quote.showInfo' bind-quoty='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>
-            <span class="card-subtitle ">Post by: 
-              <span id="name">{{quote.name}}</span>
-              <span id="date">Date Posted: <span id="datecolor">{{quote.datePosted|date:'short'}}</span></span>
-            </span>
+            
            
           </div>
         </div>

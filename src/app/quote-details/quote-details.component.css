@@ -10,8 +10,20 @@
   background-color: black;
   color: rgb(226, 46, 46);
 
-  
 }
+
+
+#name{
+  font-weight: 700;
+}
+#date{
+  float: right;
+  font-size: 14px;
+}
+#datecolor{
+  font-weight: 700;
+}
+
 #like{
   font-size: 16px;
 }
