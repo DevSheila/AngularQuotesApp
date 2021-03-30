@@ -8,32 +8,34 @@
   <div class="container-fluid">
     <div class="row">
      
-      <div class="col-sm-9 ">
+      <div class="col-lg-9 col-md-8 ">
         <div class="all-cards">
-          <div *ngFor="let quote of sortQuotes let i= index" class="card"  >
-            <div class="card-body">
-              <div>
-                  <p class="card-text" id="param">{{quote.quote}}</p>
-                  <p> ~ {{quote.author}} </p>
-                  <h4 class="card-title" appHighlightQoute > 
-                    <button (click)='displayInfo(i)' class="btn btn-info btn-sm " id="quotes-button" >See More</button>
-                  </h4>
-              </div>
-            
-         
-
-              <app-quote-details *ngIf='quote.showInfo' bind-quoty='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>
-              <span class="card-subtitle ">Post by: 
-                <span id="name">{{quote.name}}</span>
-                <span id="date">Date Posted: <span id="datecolor">{{quote.datePosted|date:'short'}}</span></span>
-              </span>
-             
+       
+        <div *ngFor="let quote of sortQuotes let i= index" class="card"  >
+          <div class="card-body">
+            <div>
+                <p class="card-text" id="param">{{quote.quote}}</p>
+                <p> ~ {{quote.author}} </p>
+                <h4 class="card-title" appHighlightQoute > 
+                  <button (click)='displayInfo(i)' class="btn btn-info btn-sm " id="quotes-button" >See More</button>
+                </h4>
             </div>
+          
+       
+
+            <app-quote-details *ngIf='quote.showInfo' bind-quoty='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>
+            <span class="card-subtitle ">Post by: 
+              <span id="name">{{quote.name}}</span>
+              <span id="date">Date Posted: <span id="datecolor">{{quote.datePosted|date:'short'}}</span></span>
+            </span>
+           
           </div>
+        </div>
+      
         </div>
       </div>
 
-      <div class="col-sm-3 ">
+      <div class="col-lg-3 col-md-4 ">
         <app-quotes-form (add)="addedQuote($event)"></app-quotes-form>
       </div>
     </div>

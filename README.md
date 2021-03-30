@@ -39,6 +39,12 @@ Here is a working live demo :    https://quotycorner.netlify.app/
 ## Known Bugs
 There are curently no known bugs.
 ## Setup
+   ### Prerequisites
+   You will need to have
+   1. Node
+   1. Npm
+   1. Angular CLI
+
 
 * You can download  manually and pass it to your root directory.
 
@@ -57,23 +63,19 @@ $ cd AngularQuotesApp
 * Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 
-
-
-
-
-### Code scaffolding
+   ### Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Build
+   ### Build
 
 Run `ng build` to build the project. 
 
-### Running unit tests
-Run ng test to execute the unit tests via Karma.
+   ### Running unit tests
+Run `ng test` to execute the unit tests via Karma.
 
-### Running end-to-end tests
-Run ng e2e to execute the end-to-end tests via Protractor.
+   ### Running end-to-end tests
+Run `ng e2e` to execute the end-to-end tests via Protractor.
 
 
 

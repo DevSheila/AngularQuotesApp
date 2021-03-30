@@ -3,7 +3,8 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 /* @import '~font-awesome/css/font-awesome.css'; */
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 body{
   background-image: url('./assets/daniele-colucci-8MoRs-DVtas-unsplash.jpg');
   background-repeat: no-repeat;

@@ -4,7 +4,6 @@ export class Quote {
   showInfo: boolean;
   // id
   // name
-  // title
   // quote
   // author
   // date posted 
@@ -18,7 +17,6 @@ constructor(public id:number,
   public likes:number,
    public dislikes:number)
    {
-
     this.showInfo=false;
   }
 }
