@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 import { QuotesComponent } from './quotes/quotes.component';
-import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { quotyComponent } from './quote-details/quote-details.component';
 import { HighlightQuoteDirectiveDirective } from './highlight-quote-directive.directive';
 import { DatePipePipe } from './date-pipe.pipe';
 
@@ -15,7 +15,7 @@ import { DatePipePipe } from './date-pipe.pipe';
     AppComponent,
     QuotesFormComponent,
     QuotesComponent,
-    QuoteDetailsComponent,
+    quotyComponent,
     HighlightQuoteDirectiveDirective,
     DatePipePipe
   ],

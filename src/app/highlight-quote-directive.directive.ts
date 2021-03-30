@@ -6,7 +6,6 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 export class HighlightQuoteDirectiveDirective {
 
- 
   
   constructor(private elem:ElementRef) { 
   }
@@ -18,8 +17,8 @@ export class HighlightQuoteDirectiveDirective {
  
   private textDeco(action:string){
     this.elem.nativeElement.parentNode.parentNode.parentNode.style.background=action;
-
-  
   }
+
+ 
 
 }
