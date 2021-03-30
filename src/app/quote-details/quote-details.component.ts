@@ -24,6 +24,9 @@ export class QuoteDetailsComponent implements OnInit {
   downvote(){
     this.quoty.dislikes+=1;
   }
+  highestVotes(){
+    
+  }
   constructor() { }
 
   ngOnInit() {
