@@ -1,12 +1,16 @@
 #delete{
-  font-size: 20px;
-  margin-right: 2%;
-  color:rgb(226, 46, 46);
+  background-color: black;
+  color: rgb(226, 46, 46);
+  font-size: 16px;
+
+
 }
 #del{
-  float:right;
-  background-color: black
-  ;
+  margin-left: 10px;
+  background-color: black;
+  color: rgb(226, 46, 46);
+
+  
 }
 #like{
   font-size: 16px;
@@ -21,7 +25,7 @@
   color: rgb(226, 46, 46);
 
 }
-#upvote{
+.upvote{
   margin-left: 10px;
   background-color: black;
   color: green;
@@ -34,4 +38,11 @@
 }
 #when{
   float:right;
+}
+
+.changed {
+  transition: color 0.4s ease-in, text-shadow 0.4s ease-in, background-color 0.5s linear 0s;
+  text-shadow: #bbb 2px 2px 2px;
+  background-color: #ffffcc;
+  color: #BF1722;
 }

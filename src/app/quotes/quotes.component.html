@@ -9,14 +9,14 @@
     <div class="row">
      
       <div class="col-lg-9 col-md-8 ">
-        <div class="all-cards">
+        <div class="all-cards" >
        
         <div *ngFor="let quote of sortQuotes let i= index" class="card"  >
           <div class="card-body">
             <div>
                 <p class="card-text" id="param">{{quote.quote}}</p>
                 <p> ~ {{quote.author}} </p>
-                <h4 class="card-title" appHighlightQoute > 
+                <h4 class="card-title" > 
                   <button (click)='displayInfo(i)' class="btn btn-info btn-sm " id="quotes-button" >See More</button>
                 </h4>
             </div>

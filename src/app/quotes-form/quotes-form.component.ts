@@ -14,6 +14,16 @@ export class QuotesFormComponent implements OnInit {
     this.add.emit(this.quoted);
     this.quoted = new Quote(0,"","","",new Date(),0,0);
   }
+  isChanged: boolean = false
+    modelChanged(value: any) {
+      console.log('model changed')
+    
+      this.isChanged = true
+      setTimeout(() => {
+          this.isChanged = false
+      }, 1000);
+    }
+  
   constructor() { }
 
   ngOnInit() {
