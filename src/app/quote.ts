@@ -1,11 +1,6 @@
-// import { ɵBrowserPlatformLocation } from '@angular/platform-browser';
-
 export class Quote {
  
   showInfo: boolean;
-
-
-
   // id
   // name
   // quote
@@ -13,14 +8,14 @@ export class Quote {
   // date posted 
   // likes
   // dislikes
-constructor(public id:number,
+constructor(
+  public id:number,
   public name:string,
   public quote:string,
   public author:string, 
   public datePosted: Date,
   public likes:number,
-   public dislikes:number)
-   {
+   public dislikes:number){
     this.showInfo=false;
   }
 }
